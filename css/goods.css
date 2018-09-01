@@ -1,0 +1,155 @@
+#top_box, #head_box, #nav_box {
+  width: 1200px;
+  margin: 0px auto; }
+
+#top {
+  height: 32px;
+  background: #f2f2f2;
+  border-bottom: 1px solid #e5e5e5; }
+  #top #top_box {
+    height: 32px;
+    font-size: 11px; }
+    #top #top_box a:hover {
+      background: #fff; }
+    #top #top_box a:first-of-type:hover {
+      background: #f2f2f2; }
+    #top #top_box a:nth-of-type(2):hover {
+      background: #f2f2f2; }
+    #top #top_box p, #top #top_box a, #top #top_box i, #top #top_box span {
+      float: left;
+      line-height: 32px;
+      color: #6c6c6c; }
+    #top #top_box .login, #top #top_box .registered {
+      text-decoration: underline;
+      color: #ec3e7d; }
+    #top #top_box .login {
+      margin-left: 21px;
+      margin-right: 3px; }
+    #top #top_box .registered {
+      margin-left: 3px;
+      margin-right: 338px; }
+    #top #top_box .iconfont {
+      color: #ec3e7d; }
+    #top #top_box .icon-xaingxia {
+      color: #6c6c6c;
+      font-size: 8px;
+      line-height: 8px;
+      margin-top: 16px;
+      margin-left: 4px;
+      margin-right: 13px; }
+    #top #top_box .icon-wode {
+      margin-right: 3px; }
+    #top #top_box .account .icon-wode {
+      margin-left: 11px;
+      font-size: 15px; }
+    #top #top_box .car .icon-gouwuche {
+      margin-left: 11px;
+      margin-right: 3px; }
+    #top #top_box .car span {
+      margin-right: 13px; }
+    #top #top_box .collect .icon-xin {
+      margin-left: 12px;
+      margin-right: 3px; }
+    #top #top_box .collect span {
+      margin-right: 12px; }
+    #top #top_box .letter span, #top #top_box .integral span, #top #top_box .site span {
+      margin-left: 12px;
+      margin-right: 12px; }
+    #top #top_box .we span {
+      margin-left: 12px; }
+    #top #top_box .we .we_i1 {
+      display: block;
+      height: 15px;
+      width: 17px;
+      background: url(../images/index/weibo.png) no-repeat;
+      margin: 9px 8px 8px 6px; }
+    #top #top_box .we .we_i2 {
+      display: block;
+      height: 14px;
+      width: 17px;
+      background: url(../images/index/wechat.png) no-repeat;
+      margin-top: 10px;
+      margin-right: 6px; }
+
+#head #head_box {
+  height: 95px; }
+  #head #head_box .search, #head #head_box h1 {
+    float: left;
+    margin-top: 21px; }
+  #head #head_box h1 {
+    height: 42px;
+    width: 170px;
+    background: url(../images/index/logo.png) no-repeat; }
+  #head #head_box .search {
+    height: 58px;
+    width: 436px;
+    margin-left: 230px; }
+    #head #head_box .search input {
+      height: 30px;
+      width: 340px;
+      border: 3px solid #ec3e7d;
+      color: #c8d6dd;
+      margin-top: 0; }
+    #head #head_box .search .search_button {
+      height: 36px;
+      width: 90px;
+      background: #ec3e7d;
+      float: right;
+      text-align: center;
+      color: #fff;
+      line-height: 36px;
+      margin-top: 0; }
+    #head #head_box .search ul {
+      margin-top: 8px; }
+      #head #head_box .search ul li {
+        font-size: 11px;
+        height: 14px;
+        line-height: 14px;
+        border-right: 1px solid #999;
+        padding-left: 10px;
+        padding-right: 13px;
+        float: left; }
+        #head #head_box .search ul li a {
+          color: #999; }
+      #head #head_box .search ul li:first-of-type {
+        padding-left: 0px; }
+      #head #head_box .search ul li:last-of-type {
+        border-right: none; }
+
+#nav #nav_box {
+  height: 36px; }
+  #nav #nav_box div, #nav #nav_box li {
+    float: left; }
+  #nav #nav_box div {
+    height: 36px;
+    width: 190px;
+    background: #333;
+    color: #fff;
+    font-size: 16px;
+    line-height: 36px; }
+    #nav #nav_box div .icon-caidan {
+      margin-right: 12px;
+      margin-left: 16px; }
+  #nav #nav_box ul a {
+    color: #111;
+    font-size: 16px;
+    line-height: 36px;
+    margin: 0px 22px; }
+  #nav #nav_box ul a:hover {
+    color: #fa3778; }
+  #nav #nav_box ul li:first-of-type {
+    height: 36px;
+    width: 138px;
+    margin-left: 30px;
+    background: url(../images/index/lightning.gif) no-repeat; }
+  #nav #nav_box ul li:nth-of-type(4) a {
+    margin-right: 0px; }
+  #nav #nav_box ul li:nth-of-type(4) div {
+    float: right;
+    height: 16px;
+    width: 25px;
+    margin: 9px 22px 0 3px;
+    background: url(../images/index/hot.png) no-repeat; }
+  #nav #nav_box ul li:last-of-type i {
+    font-size: 8px;
+    margin-left: 3px; }
